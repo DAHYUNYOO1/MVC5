@@ -33,7 +33,7 @@
    
    <!--리스너 설정  -->
    <listener>
-    	<listener-class>org.springframework.web.context.ContextLoaderListner</listener-class>
+    	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
    </listener>
    <!--  한글 인코딩 설정 -->
    <filter>
