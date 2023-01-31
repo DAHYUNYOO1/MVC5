@@ -8,9 +8,6 @@
 </head>
 <body>
 
- <a href= 'test1?data1=100&data2=200&data3=300$data3=400'>test1 get</a><br/>
- 
- <hr/>
-  <a href= 'test2?data1=100&data2=200&data3=300$data3=400'>test2 get</a><br/>
+<h1> result </h1>
 </body>
 </html>
