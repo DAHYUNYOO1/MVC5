@@ -8,12 +8,16 @@
 </head>
 <body>
 
- <a href= 'test1'>test1</a><br/>
- <a href= 'test2'>test2</a><br/>
- <a herf= 'sub1/test3'>test3</a><br/>
- <a herf= 'sub1/test4'>test4</a><br/>
- <a herf= 'sub2/test5'>test5</a><br/>
- <a herf= 'sub2/test6'>test6</a><br/>
+ <a href= 'test1?data1=100&data2=200'>test1</a><br/>
+ <!--  위 파라메터 데이터도 modelandview에 담겨  jsp에 전달이  된다. -->
+
+<hr/>
+ <a href ='test2'>test2</a>
  
+<hr/>
+ <a href ='test3'>test3</a>
+ 
+ <hr/>
+ <a href ='test4'>test4</a>
 </body>
 </html>
