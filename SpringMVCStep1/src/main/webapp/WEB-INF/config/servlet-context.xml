@@ -13,7 +13,8 @@
     <!--  스캔한 패키지 내부의 클래스 중 Controller 어노테이션을 가지고 있는 클래스들을 controller로 등록하기  -->
     <annotation-driven/>
     <!--  스캔한 bean들이 모여있는 패키지를 지정한다.-->
-    <context:component-scan base-package="kr.co.spring.controller"></context:component-scan>
+    <context:component-scan base-package="kr.co.spring.controller"/>
+    <context:component-scan base-package="kr.co.spring.beans"/>
     
     <!-- Controller의 메서드에서 반환하는 문자열 앞 뒤에 붙힐 경로 정보를 셋팅한다.  -->
     <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

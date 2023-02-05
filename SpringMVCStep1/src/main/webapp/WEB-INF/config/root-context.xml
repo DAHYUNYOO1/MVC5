@@ -4,5 +4,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	                   https://www.springframework.org/schema/beans/spring-beans.xsd">
+	                   
+	 <bean class='kr.co.spring.beans.RequestBean1' scope='request'/>  
+	 <!--  requesScope일때만 주입하도록 셋팅해서 바로 실행시 오류가 난다 . controller에서 @lazy를 붙여서 나중에 주입될 수 있도록 한다. 
+	  왜오류가 난다는거야...  요청을 안해 서버가 실행됟ㄹ때  주입할려고시도해서 오류난다고함.. test1눌렀을때 진행되어야하는데 그냥 서버실행만해도 index로 안가고 오류남 -->
+	 
+	 <bean class='kr.co.spring.beans.RequestBean2' id='dataBean2' scope='request'/>  
+	 
 </beans>
   
