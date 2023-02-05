@@ -8,7 +8,10 @@
 </head>
 <body>
 
- <a href= 'test1'>test1</a><br/>
+ <a href= 'test1'>Redirect</a><br/>
+ <a href= 'sub1'>sub1</a><br/>
+ 
+  <a href= 'test2'>Forward</a><br/>
 
  
 </body>
