@@ -13,9 +13,14 @@
  <a href='test3'>test3 ModelAndView 사용  </a><br/>
  <a href='test4'>test4 RequestBean1 객체 사용 (model)  </a><br/>
  <a href='test5'>test5 RequestBean1 객체 사용 (modelAttribute)  </a><br/>
-
-
- <a href='data1'>requstScope bean 주입 </a><br/>
+ <a href='request1'>requstScope bean 주입 </a><br/>
+ 
+ 
+ <a href='session1'>SessionScope  사용 </a><br/>
+ <a href='session2'>SessionScope  사용 (redirect)  </a><br/>
+ <a href='session3'>SessionScope  사용 (forward) </a><br/>
+ <a href='session4'>@SessionAttributes  사용  </a><br/>
+ 
  
 </body>
 </html>
