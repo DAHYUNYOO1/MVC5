@@ -21,6 +21,9 @@
  <a href='session3'>SessionScope  사용 (forward) </a><br/>
  <a href='session4'>@SessionAttributes  사용  </a><br/>
  
+ <a href = 'save_cookie'>save_cookie</a>
+ <a href = 'Load_cookie'>Load_cookie (Servlet)</a>
+ <a href = 'Load_cookie2'>Load_cookie (Spring)</a>
  
 </body>
 </html>
